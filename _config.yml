@@ -1,11 +1,11 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+title: "hanay"
+description: "Hanay's blog,use Jekyll and github pages."
+keywords: "Hanay,hanay,blog,Jekyll,github,gh-pages"
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "http://hanay.space"
 # url: "http://127.0.0.1:4000"
 
 # blog img path
@@ -13,21 +13,21 @@ img_path: 'http://www.jack003.com/static/img/blog'
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'me@jack003.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
+  name: 'hanay'
+  first_name: 'haihong'
+  last_name: 'Lee'
+  email: '1114709480@qq.com'
+  facebook_username: 'hanayzZ'
+  github_username: 'hanayzZ'
+  head_img: 'static/img/landing/hanay.JPG'
 
 # social link
 jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
+  first_name: 'haihong'
+  last_name: 'Lee'
   description: 'Painter.'
   link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+  email: '1114709480@qq.com'
 
 # landing page
 landing:
@@ -42,20 +42,20 @@ landing:
 # my projects
 project:
   saplatform:
-    name: 'Saplatform'
-    url: '/Jack614/saplatform'
+    name: 'tidyWebsite'
+    url: 'https://www.24tidy.com'
     img: 'static/img/landing/saplatform.png'
   jalpc:
-    name: 'Jalpc'
-    url: '/Jack614/jalpc_jekyll_theme'
+    name: 'wandabox'
+    url: 'http://wandabox.24tidy.com/'
     img: 'static/img/landing/jekyll.png'
   angularjs:
-    name: 'Jalpc-A'
-    url: '/Jack614/Jalpc-A'
+    name: 'tidyWebApp'
+    url: 'https://m.24tidy.com'
     img: 'static/img/landing/angularjs.png'
   Rsser:
-    name: 'Rsser'
-    url: '/Jack614/Rsser'
+    name: 'monthLottery'
+    url: 'https://m.24tidy.com/activity/monthLottery/tpl/8/index.html'
     img: 'static/img/landing/rsser.png'
 
 # blog index

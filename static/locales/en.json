@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "hanay's blog"
   },
   "nav":{
     "home": "Home",
@@ -13,17 +13,17 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I am a Python engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel."
+    "des": "I am a web engineer with website development experience. Life is a continuous learning process, so work makes me more rigorous.Maybe this world is not beautiful, but it is worth fighting for"
   },
   "skills":{
     "my_skills": "My Skills"
   },
   "projects":{
     "my_projects": "My Projects",
-    "saplatform": "Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.",
-    "jalpc": "Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices.",
-    "angularjs": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well.",
-    "rsser": "Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually."
+    "tidyWebsite": "Tidy website's presentation and business presentation.",
+    "wandabox": "Wandabox providing customers with smart laundry.",
+    "tidyWebApp": "This is a web application that uses SUI, the backstage uses php, realizes the interaction, provides the customer to wash and to purchase the flower business.",
+    "monthLottery": "MonthLottery provides users with a draw."
   },
   "career":{
     "my_career": "My Career",
