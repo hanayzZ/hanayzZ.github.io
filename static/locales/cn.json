@@ -28,21 +28,21 @@
   "career":{
     "my_career": "职业生涯",
     "nextcode": "泰笛",
-    "nextcode_des": "现在我在泰笛，负责webapp和市场活动.",
+    "nextcode_des": "现在我在泰笛，负责webApp和市场活动.",
     "nextcode_date": "2016年9月",
     "nextcode_job": "web前端工程师",
-    "netease": "网易游戏",
-    "netease_des": "泰笛合作伙伴app",
+    "netease": "泰笛合作伙伴app",
+    "netease_des": "泰笛与商家合作",
     "netease_date": "2015年10月",
     "netease_job": "android开发工程师",
-    "college": "拾阶app",
-    "college_des": "2015年7月大学毕业，完成毕业设计拾阶app,开始了IT职业生涯",
-    "college_date": "2015年7月",
-    "college_job": "学生",
-    "ucloud": "地推系统app",
-    "ucloud_des": "在Ucloud,我开始和服务器、操作系统打交道，并使用shell脚本管理海量服务器.",
-    "ucloud_date": "2014年12月",
-    "ucloud_job": "android实习工程师"
+    "ucloud": "拾阶app",
+    "ucloud_des": "2015年7月大学毕业，完成毕业设计拾阶app,开始了IT职业生涯",
+    "ucloud_date": "2015年7月",
+    "ucloud_job": "学生",
+    "college": "地推系统app",
+    "college_des": "地推系统，公司内部员工使用",
+    "college_date": "2014年12月",
+    "college_job": "android实习工程师"
   },
   "blog":{
     "my_blog": "我的博客"
