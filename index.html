@@ -14,18 +14,18 @@ permalink: /
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#page-top" id="i18_title">
-                    <!--<span data-i18n="website.title">{{ site.title }}</span>-->
+                    <span data-i18n="website.title">{{ site.title }}</span>
                 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-                    <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">{{ site.landing.home }}</span></a></li>
-                    <li><a class="page-scroll" href="#about_me"><span data-i18n="nav.about_me">{{ site.landing.about }}</span></a></li>
-                    <li><a class="page-scroll" href="#career"><span data-i18n="nav.career">{{ site.landing.career }}</span></a></li>
-                    <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills">{{ site.landing.skills }}</span></a></li>
-                    <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li>
-                    <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
-                    <li><a class="page-scroll" href="#link"><span data-i18n="nav.link">{{ site.landing.link }}</span></a></li>
+                    <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home" style="color: #676a6c">{{ site.landing.home }}</span></a></li>
+                    <li><a class="page-scroll" href="#about_me"><span data-i18n="nav.about_me" style="color: #676a6c">{{ site.landing.about }}</span></a></li>
+                    <li><a class="page-scroll" href="#career"><span data-i18n="nav.career" style="color: #676a6c">{{ site.landing.career }}</span></a></li>
+                    <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills" style="color: #676a6c">{{ site.landing.skills }}</span></a></li>
+                    <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects" style="color: #676a6c">{{ site.landing.projects }}</span></a></li>
+                    <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog" style="color: #676a6c">{{ site.landing.blog }}</span></a></li>
+                    <li><a class="page-scroll" href="#link"><span data-i18n="nav.link" style="color: #676a6c">{{ site.landing.link }}</span></a></li>
                     <li>
                         <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
                     </li>
@@ -38,13 +38,13 @@ permalink: /
         </div>
     </nav>
 </div>
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-    </ol>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel" style="height: 46px">
+    <!--<ol class="carousel-indicators">-->
+        <!--<li data-target="#inSlider" data-slide-to="0" class="active"></li>-->
+        <!--<li data-target="#inSlider" data-slide-to="1"></li>-->
+    <!--</ol>-->
     <div class="carousel-inner" role="listbox">
-        <div class="item active">
+        <div class="item active" style="height: 86px;background-color: #eee">
             <div class="container">
                 <div class="carousel-caption">
                 </div>
@@ -53,26 +53,26 @@ permalink: /
                 </div>
             </div>
             <!-- Set background for slide in css -->
-            <div class="header-back one"></div>
+            <!--<div class="header-back one"></div>-->
 
         </div>
-        <div class="item">
+        <div class="item" style="height: 86px;background-color: #eee">
             <div class="container">
                 <div class="carousel-caption blank">
                 </div>
             </div>
             <!-- Set background for slide in css -->
-            <div class="header-back two"></div>
+            <!--<div class="header-back two"></div>-->
         </div>
     </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+    <!--<a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">-->
+        <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+        <!--<span class="sr-only">Previous</span>-->
+    <!--</a>-->
+    <!--<a class="right carousel-control" href="#inSlider" role="button" data-slide="next">-->
+        <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+        <!--<span class="sr-only">Next</span>-->
+    <!--</a>-->
 </div>
 
 <section id="about_me" class="features">
@@ -467,8 +467,6 @@ permalink: /
     </div>
 </section>
 
-
-
 <script>
     $(document).ready(function () {
         $('body').scrollspy({
@@ -514,8 +512,8 @@ permalink: /
         init();
 
     })();
-    // Activate WOW.js plugin for animation on scrol
-    new WOW().init();
+//     Activate WOW.js plugin for animation on scrol
+//    new WOW().init();
 </script>
 
 <script>
