@@ -4,7 +4,7 @@ title:  "JavaScript中if语句的几种优化代码的写法"
 date:   2016-06-26
 desc: "JavaScript中if语句的几种优化代码的写法"
 keywords: "JavaScript,if,optimise,statement,优化"
-categories: [HTML]
+categories: [JavaScript]
 tags: [JavaScript]
 icon: icon-javascript
 ---

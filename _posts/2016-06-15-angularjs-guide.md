@@ -4,7 +4,7 @@ title:  "AngularJS Guide Chinese version"
 date:   2016-06-15
 desc: "AngularJS Guide Chinese version"
 keywords: "AngularJS,Chinese,Guide"
-categories: [HTML]
+categories: [AngularJs]
 tags: [AngularJS]
 icon: icon-angular
 ---

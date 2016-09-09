@@ -61,11 +61,14 @@ project:
 # blog index
 index:
   home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
   html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
+  css: 'Css'
+  javaScript: 'JavaScript'
+  jQuery: 'JQuery'
+  angularJs: 'AngularJs'
+  vueJs: 'VueJs'
+  reactJs: 'ReactJs'
+  other: 'Other'
   life: 'Life'
 
 # donate

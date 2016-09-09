@@ -29,20 +29,6 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="page-scroll" href="/blog/" style="color: #676a6c">{{ site.index.home }}</a></li>
 
-                        {% if page.title == site.index.python %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/python/" style="color: #676a6c">{{ site.index.python }}</a></li>
-
-                        {% if page.title == site.index.linux %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/linux/" style="color: #676a6c">{{ site.index.linux }}</a></li>
-
                         {% if page.title == site.index.html %}
                             <li class="active">
                         {% else %}
@@ -50,26 +36,59 @@
                         {% endif %}
                             <a class="page-scroll" href="/html/" style="color: #676a6c">{{ site.index.html }}</a></li>
 
-                        {% if page.title == site.index.database %}
+                        {% if page.title == site.index.css %}
                             <li class="active">
                         {% else %}
                             <li>
                         {% endif %}
-                            <a class="page-scroll" href="/database/" style="color: #676a6c">{{ site.index.database }}</a></li>
+                            <a class="page-scroll" href="/css/" style="color: #676a6c">{{ site.index.css }}</a></li>
 
-                        {% if page.title == site.index.mac %}
+                        {% if page.title == site.index.javaScript %}
                             <li class="active">
                         {% else %}
                             <li>
                         {% endif %}
-                            <a class="page-scroll" href="/mac/" style="color: #676a6c">{{ site.index.mac }}</a></li>
+                            <a class="page-scroll" href="/javaScript/" style="color: #676a6c">{{ site.index.javaScript }}</a></li>
 
+                        {% if page.title == site.index.jQuery %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                            <a class="page-scroll" href="/jQuery/" style="color: #676a6c">{{ site.index.jQuery }}</a></li>
+
+                        {% if page.title == site.index.angularJs %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                            <a class="page-scroll" href="/angularJs/" style="color: #676a6c">{{ site.index.angularJs }}</a></li>
+
+                        {% if page.title == site.index.vueJs %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                            <a class="page-scroll" href="/vueJs/" style="color: #676a6c">{{ site.index.vueJs }}</a></li>
+
+                        {% if page.title == site.index.reactJs %}
+                        <li class="active">
+                            {% else %}
+                        <li>
+                            {% endif %}
+                            <a class="page-scroll" href="/reactJs/" style="color: #676a6c">{{ site.index.reactJs}}</a></li>
+                        {% if page.title == site.index.other %}
+                        <li class="active">
+                            {% else %}
+                        <li>
+                            {% endif %}
+                            <a class="page-scroll" href="/other/" style="color: #676a6c">{{ site.index.other}}</a></li>
                         {% if page.title == site.index.life %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/life/" style="color: #676a6c">{{ site.index.life }}</a></li>
+                        <li class="active">
+                            {% else %}
+                        <li>
+                            {% endif %}
+                            <a class="page-scroll" href="/life/" style="color: #676a6c">{{ site.index.life}}</a></li>
                     </ul>
                 </div>
             </div>
